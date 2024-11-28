@@ -1,0 +1,16 @@
+{
+  "name": "shootmail-rails",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "<sps.1431990@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "esbuild app/javascript/src/application.js --bundle --sourcemap --outdir=app/assets/builds --public-path=/assets"
+  },
+  "dependencies": {
+    "@shootmail/email-builder": "^0.1.1"
+  },
+  "devDependencies": {
+    "esbuild": "^0.24.0"
+  }
+}
